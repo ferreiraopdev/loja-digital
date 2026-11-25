@@ -1,0 +1,53 @@
+.caixa-login {
+    display: flex;
+    height: 100vh;
+}
+
+.caixa-imagem {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2rem 1.5rem;
+    height: 100%;
+    width: 40%;
+}
+
+.caixa-formulario {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    height: 100%;
+    width: 60%;
+}
+
+.caixa-adm {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.caixa-adm input {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border-radius: 7px;
+    border: none;
+}
+
+.caixa-adm button{
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    border: none;
+}
+
+.caixa-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
